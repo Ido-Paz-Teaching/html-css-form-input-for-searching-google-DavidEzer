@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="style.css">
+        <style>
+            label{
+                font-weight: bold;
+            }
+        </style>
+    </head>
+<body>
+<form action="http://www.google.com/search?" target="_blank">
+  <label  for="q" >Search text:</label><br>
+<input type="text" id="q" name="q" required><br>
+  <label for="lname">That was updated in:</label><br>
+    <select id="date" name="as_qdr">
+      <option value="d">last day</option>
+      <option value="w">last week</option>  
+      <option value="m">last month</option>
+      <option value="y">last year</option>
+    </select><br>
+<input type="checkbox" id="lr" name="lr" value="lang_iw">
+  <label for="lr">Search only pages in hebraw</label><br>
+<input type="number" id="num" name="num" max="100"><br>
+  <label for="num">Numbers of results:</label><br>
+<input type="submit" value="Ask google" style="color: green;">
+</form>
+</body>
+
+
+
+
+
+</html>
